@@ -7,9 +7,9 @@ import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.RotateGestur
  */
 interface RotateGestureListener {
 
-    fun onRotation(detector: RotateGestureDetector)
+  fun onRotation(detector: RotateGestureDetector)
 
-    fun onRotationBegin(detector: RotateGestureDetector)
+  fun onRotationBegin(detector: RotateGestureDetector)
 
-    fun onRotationEnd(detector: RotateGestureDetector)
+  fun onRotationEnd(detector: RotateGestureDetector)
 }

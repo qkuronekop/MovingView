@@ -6,5 +6,7 @@ import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.PinchGesture
  * Created by satomitsujimura on 2016/12/03.
  */
 interface PinchGestureListener {
-    fun onPinchGestureListener(dragGestureDetector: PinchGestureDetector)
+
+  fun onPinchGestureListener(dragGestureDetector: PinchGestureDetector)
+
 }

@@ -6,5 +6,7 @@ import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.DragGestureD
  * Created by satomitsujimura on 2016/12/03.
  */
 interface DragGestureListener {
-    fun onDragGestureListener(dragGestureDetector: DragGestureDetector)
+
+  fun onDragGestureListener(dragGestureDetector: DragGestureDetector)
+
 }

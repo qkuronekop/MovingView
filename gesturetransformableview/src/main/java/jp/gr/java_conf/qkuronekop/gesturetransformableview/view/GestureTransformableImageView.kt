@@ -6,16 +6,15 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.view.View.OnTouchListener
-import android.widget.TextView
-
+import android.widget.ImageView
 import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.DragGestureDetector
-import jp.gr.java_conf.qkuronekop.gesturetransformableview.listener.DragGestureListener
 import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.PinchGestureDetector
 import jp.gr.java_conf.qkuronekop.gesturetransformableview.detector.RotateGestureDetector
+import jp.gr.java_conf.qkuronekop.gesturetransformableview.listener.DragGestureListener
 import jp.gr.java_conf.qkuronekop.gesturetransformableview.listener.PinchGestureListener
 import jp.gr.java_conf.qkuronekop.gesturetransformableview.listener.RotateGestureListener
 
-class GestureTransformableTextView : TextView, OnTouchListener, DragGestureListener, PinchGestureListener, RotateGestureListener {
+class GestureTransformableImageView : ImageView, OnTouchListener, DragGestureListener, PinchGestureListener, RotateGestureListener {
 
   private var limitScaleMax = DEFAULT_LIMIT_SCALE_MAX
 
